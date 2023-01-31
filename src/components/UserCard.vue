@@ -1,5 +1,6 @@
 <template>
-	<div class="bg-white/20 flex flex-col p-4 gap-4 font-semibold rounded-md">
+	<div
+		class="bg-white/20 flex flex-col lg:p-4 lg:gap-4 sm:gap-3 sm:p-3 font-semibold rounded-md lg:text-base sm:text-sm">
 		<div class="flex">
 			<div class="w-full">
 				<h1>First Name:</h1>

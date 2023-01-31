@@ -9,7 +9,8 @@
 			</button>
 		</div>
 
-		<div class="grid grid-box gap-4 overflow-y-scroll overflow-x-auto">
+		<div
+			class="grid lg:grid-box sm:grid-box-sm gap-4 overflow-y-scroll overflow-x-auto">
 			<UserCard
 				v-for="data in peopleStore.people"
 				:key="data.id"

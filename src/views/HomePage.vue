@@ -1,5 +1,6 @@
 <template>
-	<div class="bg-gradient h-screen flex">
+	<div
+		class="bg-gradient h-screen flex lg:flex-row sm:flex-col overflow-y-scroll overflow-x-auto">
 		<SideBar @clicked-item="clickedItem" @sign-out="signOut"></SideBar>
 		<div class="flex gap-4 justify-center items-center w-full">
 			<router-view />
