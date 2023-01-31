@@ -4,11 +4,12 @@
 			<h1 class="text-2xl font-bold">
 				{{ organizationStore.organizations.length }} Organizations
 			</h1>
-			<!-- <button
-				class="bt-gradient lg:text-xl sm:text-sm rounded-md shadow-md py-2 px-2.5 font-bold text-gray-800"
-				@click="this.$router.push({ name: 'addorganizations' })">
-				Add New
-			</button> -->
+			<button
+				class="flex items-center bt-gradient lg:aspect-auto sm:aspect-square lg:text-xl sm:text-sm lg:rounded-md sm:rounded-full shadow-md lg:py-2 lg:px-2.5 sm:p-2 font-bold text-gray-800"
+				@click="this.$router.push({ name: 'addorganization' })">
+				<i class="ri-add-line text-black"></i>
+				<span class="lg:inline sm:hidden">Add New</span>
+			</button>
 		</div>
 
 		<div

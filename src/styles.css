@@ -25,7 +25,7 @@
 	}
 
 	.input-box {
-		@apply rounded-md lg:p-2.5 sm:p-1.5 bg-white/60 shadow-md;
+		@apply rounded-md lg:p-2.5 sm:p-1.5 bg-white/60 shadow-md w-full;
 	}
 
 	.input-label {
@@ -57,5 +57,9 @@
 
 	.email-font-limit {
 		max-width: 10ch;
+	}
+
+	.heading-line-height {
+		line-height: 3.5rem !important;
 	}
 }

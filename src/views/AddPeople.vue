@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex bg-white/20 lg:w-[600px] sm:w-fit] justify-between items-center rounded-lg shadow-lg flex-col lg:p-8 lg:gap-8 sm:p-4 sm:gap-4">
+		class="flex bg-white/20 lg:w-[600px] sm:w-fit] justify-between items-center rounded-lg shadow-lg flex-col lg:p-8 lg:gap-8 sm:p-4 sm:gap-4 lg:mt-0 sm:mt-8">
 		<div class="flex justify-center items-center w-full relative">
 			<button
 				class="absolute left-0 lg:text-xl sm:text-md rounded-md hover:bg-black/10 px-2 py-1"
